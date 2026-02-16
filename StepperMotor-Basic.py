@@ -1,4 +1,4 @@
-rom machine import Pin,PWM
+from machine import Pin,PWM
 
 
 import time 
@@ -32,7 +32,7 @@ while True :
         motor4.off()
         time.sleep(0.005)
 
-        motor.off()
+        motor1.off()
         motor2.off()
         motor3.off()
         motor4.on()
